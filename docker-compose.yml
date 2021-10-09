@@ -1,0 +1,33 @@
+version: "3.9"
+   
+services:
+  mysql:
+    container_name: mysql
+    restart: ${DOCKER_RESTART_POLICY:-always}
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: "tagger"
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_USER: "backend"
+      MYSQL_PASS: ""
+    volumes:
+      - ${DOCKER_MYSQL_VOLUME:-/opt/db_data}:/var/lib/mysql
+    ports:
+      - 3366:3306
+    networks:
+      - network
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge

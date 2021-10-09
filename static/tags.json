@@ -1,0 +1,676 @@
+{
+    "S": {
+        "label": "Slovný druh",
+        "name": "Substantívum",
+        "slovakName": "Podstatné meno",
+        "color": "#7867d0",
+        "tags": {
+            "S": {
+                "label":"Paradigma",
+                "value": "substantívna"
+            },
+            "A": {
+                "label":"Paradigma",
+                "value": "adjektívna"
+            },
+            "F": {
+                "label":"Paradigma",
+                "value": "zmiešaná"
+            },
+            "U": {
+                "label":"Paradigma",
+                "value": "neúplná"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "s": {
+                "label":"Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "1": {
+                "label": "Pád",
+                "value": "nominatív"
+            },
+            "2": {
+                "label": "Pád",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Pád",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Pád",
+                "value": "akuzatív"
+            },
+            "5": {
+                "label": "Pád",
+                "value": "vokatív"
+            },
+            "6": {
+                "label": "Pád",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Pád",
+                "value": "inštrumentál"
+            }
+        }
+    },
+    "A": {
+        "label": "Slovný druh",
+        "name": "Adjektívum",
+        "slovakName": "Prídavné meno",
+        "color": "#90be6d",
+        "tags": {
+            "A": {
+                "label":"Paradigma",
+                "value": "adjektívna"
+            },
+            "F": {
+                "label":"Paradigma",
+                "value": "zmiešaná"
+            },
+            "U": {
+                "label":"Paradigma",
+                "value": "neúplná"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "s": {
+                "label":"Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "1": {
+                "label": "Pád",
+                "value": "nominatív"
+            },
+            "2": {
+                "label": "Pád",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Pád",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Pád",
+                "value": "akuzatív"
+            },
+            "5": {
+                "label": "Pád",
+                "value": "vokatív"
+            },
+            "6": {
+                "label": "Pád",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Pád",
+                "value": "inštrumentál"
+            },
+            "x": {
+                "label": "stupeň",
+                "value": "pozitív"
+            },
+            "y": {
+                "label": "stupeň",
+                "value": "komparatív"
+            },
+            "z": {
+                "label": "stupeň",
+                "value": "superlatív"
+            }
+        }
+    },
+    "P": {
+        "label":"Slovný druh",
+        "name": "Pronominum",
+        "slovakName": "Zámeno",
+        "color": "#f3722c",
+        "tags": {
+            "S": {
+                "label":"Paradigma",
+                "value": "substantívna"
+            },
+            "A": {
+                "label":"Paradigma",
+                "value": "adjektívna"
+            },
+            "P": {
+                "label":"Paradigma",
+                "value": "zámenná"
+            },
+            "F": {
+                "label":"Paradigma",
+                "value": "zmiešaná"
+            },
+            "U": {
+                "label":"Paradigma",
+                "value": "neúplná"
+            },
+            "D": {
+                "label":"Paradigma",
+                "value": "príslovková"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "h": {
+                "label":"Rod",
+                "value": "všeobecný"
+            },
+            "s": {
+                "label":"Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "1": {
+                "label": "Pád",
+                "value": "nominatív"
+            },
+            "2": {
+                "label": "Pád",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Pád",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Pád",
+                "value": "akuzatív"
+            },
+            "5": {
+                "label": "Pád",
+                "value": "vokatív"
+            },
+            "6": {
+                "label": "Pád",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Pád",
+                "value": "inštrumentál"
+            },
+            "g": {
+                "label": "Aglutinovanosť",
+                "value": "aglutinované"
+            }
+        }
+    },
+    "N": {
+        "label":"Slovný druh",
+        "name": "Numerále",
+        "slovakName": "Číslovka",
+        "color": "#b4d067",
+        "tags": {
+            "S": {
+                "label":"Paradigma",
+                "value": "substantívna"
+            },
+            "A": {
+                "label":"Paradigma",
+                "value": "adjektívna"
+            },
+            "N": {
+                "label":"Paradigma",
+                "value": "číslovková"
+            },
+            "F": {
+                "label":"Paradigma",
+                "value": "zmiešaná"
+            },
+            "U": {
+                "label":"Paradigma",
+                "value": "neúplná"
+            },
+            "D": {
+                "label":"Paradigma",
+                "value": "príslovková"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "s": {
+                "label":"Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "1": {
+                "label": "Pád",
+                "value": "nominatív"
+            },
+            "2": {
+                "label": "Pád",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Pád",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Pád",
+                "value": "akuzatív"
+            },
+            "5": {
+                "label": "Pád",
+                "value": "vokatív"
+            },
+            "6": {
+                "label": "Pád",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Pád",
+                "value": "inštrumentál"
+            }
+        }
+    },
+    "V": {
+        "label":"Slovný druh",
+        "name": "Verbum",
+        "slovakName": "Sloveso",
+        "color": "#b667d0",
+        "tags": {
+            "I": {
+                "label": "Slovesná forma",
+                "value": "infinitív"
+            },
+            "K": {
+                "label": "Slovesná forma",
+                "value": "indikatív"
+            },
+            "M": {
+                "label": "Slovesná forma",
+                "value": "imperatív"
+            },
+            "H": {
+                "label": "Slovesná forma",
+                "value": "prechodník"
+            },
+            "L": {
+                "label": "Slovesná forma",
+                "value": "/-ové príčastie"
+            },
+            "B": {
+                "label": "Slovesná forma",
+                "value": "futúrum byť"
+            },
+            "d": {
+                "label": "Vid",
+                "value": "dokonavý"
+            },
+            "e": {
+                "label": "Vid",
+                "value": "nedokonavý"
+            },
+            "j": {
+                "label": "Vid",
+                "value": "obojvidové sloveso"
+            },
+            "s": {
+                "label":"Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "a": {
+                "label": "Osoba",
+                "value": "prvá"
+            },
+            "b": {
+                "label": "Osoba",
+                "value": "druhá"
+            },
+            "c": {
+                "label": "Osoba",
+                "value": "tretia"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "h": {
+                "label": "Rod",
+                "value": "všeobecný"
+            },
+            "o": {
+                "label": "Rod",
+                "value": "neurčiteľný"
+            },
+            "+": {
+                "label": "Negácia",
+                "value": "afirmácia"
+            },
+            "-": {
+                "label": "Negácia",
+                "value": "negácia"
+            }
+        }
+    },
+    "G": {
+        "label":"Slovesná trieda",
+        "name": "Particípium",
+        "slovakName": "Príčastie - Sloveso",
+        "color": "#b667d0",
+        "tags": {
+            "k": {
+                "label": "Druh",
+                "value": "aktívne"
+            },
+            "t": {
+                "label": "Druh",
+                "value": "pasívne"
+            },
+            "m": {
+                "label":"Rod",
+                "value": "mužský životný"
+            },
+            "i": {
+                "label":"Rod",
+                "value": "mužský neživotný"
+            },
+            "f": {
+                "label":"Rod",
+                "value": "ženský"
+            },
+            "n": {
+                "label":"Rod",
+                "value": "stredný"
+            },
+            "s": {
+                "label": "Číslo",
+                "value": "jednotné"
+            },
+            "p": {
+                "label":"Číslo",
+                "value": "množné"
+            },
+            "a": {
+                "label": "Osoba",
+                "value": "prvá"
+            },
+            "1": {
+                "label": "Pád",
+                "value": "nominatív"
+            },
+            "2": {
+                "label": "Pád",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Pád",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Pád",
+                "value": "akuzatív"
+            },
+            "5": {
+                "label": "Pád",
+                "value": "vokatív"
+            },
+            "6": {
+                "label": "Pád",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Pád",
+                "value": "inštrumentál"
+            },
+            "x":{
+                "label": "Stupeň",
+                "value": "pozitív"
+            },
+            "y":{
+                "label": "Stupeň",
+                "value": "komparatív"
+            },
+            "z":{
+                "label": "Stupeň",
+                "value": "superlatív"
+            }
+        }
+    },
+    "D": {
+        "label":"Slovný druh",
+        "name": "Adverbium",
+        "slovakName": "Príslovka",
+        "color": "#679ed0",
+        "tags": {
+            "x":{
+                "label": "Stupeň",
+                "value": "pozitív"
+            },
+            "y":{
+                "label": "Stupeň",
+                "value": "komparatív"
+            },
+            "z":{
+                "label": "Stupeň",
+                "value": "superlatív"
+            }
+        }
+    },
+    "E": {
+        "label":"Slovný druh",
+        "name": "Prepozícia",
+        "slovakName": "Predložka",
+        "color": "#e09f3e",
+        "tags": {
+            "v": {
+                "label": "Forma",
+                "value": "vokalizovaná"
+            },
+            "u": {
+                "label": "Forma",
+                "value": "nevokalizovaná"
+            },
+            "2": {
+                "label": "Spojenie s pádom",
+                "value": "genitív"
+            },
+            "3": {
+                "label": "Spojenie s pádom",
+                "value": "datív"
+            },
+            "4": {
+                "label": "Spojenie s pádom",
+                "value": "akuzatív"
+            },
+            
+            "6": {
+                "label": "Spojenie s pádom",
+                "value": "lokál"
+            },
+            "7": {
+                "label": "Spojenie s pádom",
+                "value": "inštrumentál"
+            }
+        }
+    },
+    "O": {
+        "label":"Slovný druh",
+        "name": "Konjunkcia",
+        "slovakName": "Spojka",
+        "color": "#f8961e",
+        "tags": {
+            "Y":{
+                "label": "Kondicionálnosť",
+                "value": "kondicionálnosť"
+            }
+        }
+    },
+    "T": {
+        "label":"Slovný druh",
+        "name": "Partikula",
+        "slovakName": "Častica",
+        "color": "#43aa8b",
+        "tags": {
+            "Y":{
+                "label": "Kondicionálnosť",
+                "value": "kondicionálnosť"
+            }
+        }
+    },
+    "J": {
+        "label":"Slovný druh",
+        "name": "Interjekcia",
+        "slovakName": "Citoslovce",
+        "color": "#c9184a",
+        "tags": {}
+    },
+    "R": {
+        "label":"Slovná trieda",
+        "name": "Reflexívum",
+        "slovakName": "Zvratné zámeno",
+        "color": "",
+        "tags": {}
+    },
+    "Y": {
+        "label":"Slovná trieda",
+        "name": "Kondicionálová morféma",
+        "slovakName": "Kondicionálová morféma",
+        "color": "",
+        "tags": {}
+    },
+    "W": {
+        "label":"Slovná trieda",
+        "name": "Abreviácie",
+        "slovakName": "Značky",
+        "color": "",
+        "tags": {}
+    },
+    "Z": {
+        "label":"Slovná trieda",
+        "name": "Interpunkcia",
+        "slovakName": "Interpunkcia",
+        "color": "",
+        "tags": {}
+    },
+    "Q": {
+        "label":"Slovná trieda",
+        "name": "Neurčiteľný slovný druh",
+        "slovakName": "Neurčiteľný slovný druh",
+        "color": "",
+        "tags": {}
+    },
+    "#": {
+        "label":"Slovná trieda",
+        "name": "Neslovný element",
+        "slovakName": "Neslovný element",
+        "color": "",
+        "tags": {}
+    },
+    "%": {
+        "label":"Slovná trieda",
+        "name": "Citový výraz",
+        "slovakName": "Citový výraz",
+        "color": "",
+        "tags": {}
+    },
+    "0": {
+        "label":"Slovná trieda",
+        "name": "Číslica",
+        "slovakName": "Číslica",
+        "color": "",
+        "tags": {}
+    },
+    ":r": {
+        "label":"Posledný znak",
+        "name": "Vlastné meno",
+        "slovakName": "Vlastné meno",
+        "color": "",
+        "tags": {}
+    },
+    ":q": {
+        "label":"Posledný znak",
+        "name": "Chybný zápis",
+        "slovakName": "Chybný zápis",
+        "color": "",
+        "tags": {}
+    }
+}
