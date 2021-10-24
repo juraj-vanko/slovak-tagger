@@ -99,15 +99,6 @@ WSGI_APPLICATION = 'backendapi.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-    # MySQL engine. Powered by the mysqlclient module.
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'tagger',
-    'USER': 'backend',
-    'PASSWORD': '',
-    'HOST': 'mysql',
-    'PORT': '3306',
-  }
 }
 
 
