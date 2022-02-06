@@ -1,2 +1,2 @@
 import stanza
-#stanza.download("sk")
+stanza.download("sk")
