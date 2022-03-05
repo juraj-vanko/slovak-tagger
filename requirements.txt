@@ -1,19 +1,16 @@
-whitenoise
-
 # Django Web Framework
 django==3.1.3
 
-# Django Cors Headers - Used to enable CORS headers in API responses, and allow requests to be made to your API server from other origins.
+# Django Header Cors – Používajú sa na povolenie hlavičiek CORS v odpovediach 
+#API a umožňujú odosielanie požiadaviek na váš server API z iných zdrojov.
 django-cors-headers==3.5.0
 
-# Django Rest Framework - Used to design API logic
+# Django Rest Framework - Používa sa na návrh logiky API
 djangorestframework==3.12.2
 
-# MySQL Client - Used as an interface to connect Django application to the MySQL server.
-
-torch==1.4.0
+# MySQL Client - Používa sa ako rozhranie na pripojenie aplikácie 
+#Django k serveru MySQL.
 
 stanza==1.3.0
 
 pymysql==1.0.2
-
