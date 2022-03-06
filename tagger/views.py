@@ -10,6 +10,8 @@ import json
 from .dictionaries import xpos
 
 nlp = stanza.Pipeline(lang="sk")
+tagsdb = json.load(open("./static/tags.json", encoding="utf8"))
+schema = json.load(open("./static/sentence-schema.json", encoding="utf8"))
 
 class TaggerView(
   APIView, # Mixin, ktorý umožňuje základnému APIView spracovávať DELETE HTTP požiadavky
@@ -20,8 +22,6 @@ class TaggerView(
   def get(self, request, id=None):
     veta = request.GET['sentence']
     dokument = nlp(veta)
-    tagsdb = json.load(open("./static/tags.json", encoding="utf8"))
-    schema = json.load(open("./static/sentence-schema.json", encoding="utf8"))
     tokenized = []
 
     for vety in dokument.sentences:
