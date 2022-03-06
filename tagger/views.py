@@ -16,7 +16,7 @@ class TaggerView(
 ):
 
   def get(self, request, id=None):
-    nlp = stanza.Pipeline(lang="sk", verbose=False)
+    nlp = stanza.Pipeline(lang="sk")
     veta = request.GET['sentence']
     dokument = nlp(veta)
     tagsdb = json.load(open("./static/tags.json", encoding="utf8"))
