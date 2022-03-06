@@ -9,6 +9,8 @@ import stanza
 import json
 from .dictionaries import xpos
 
+nlp = stanza.Pipeline(lang="sk")
+
 class TaggerView(
   APIView, # Mixin, ktorý umožňuje základnému APIView spracovávať DELETE HTTP požiadavky
   UpdateModelMixin, # Mixin, ktorý umožňuje základnému APIView spracovávať požiadavky PUT HTTP
@@ -16,7 +18,6 @@ class TaggerView(
 ):
 
   def get(self, request, id=None):
-    nlp = stanza.Pipeline(lang="sk")
     veta = request.GET['sentence']
     dokument = nlp(veta)
     tagsdb = json.load(open("./static/tags.json", encoding="utf8"))
